@@ -1,0 +1,14 @@
+def check(s):
+    if len(s) %2==0:
+        return False
+    if s[0] == s[1]:
+        return False
+    for i in range(0 , len(s), 2):
+        if s[i] != s[0]:
+            return False
+    return True
+
+t = int(input())
+for _ in range(t):
+    s = input()
+    print("YES" if check(s) else "NO")
