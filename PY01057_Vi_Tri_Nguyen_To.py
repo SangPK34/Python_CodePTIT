@@ -7,16 +7,14 @@ def snt(n):
     return True
 
 def check(s):
-    A = 0
     for i in range(len(s)):
-        if i % 2 == 0:
-            if int(s[i]) % 2 == 1:
+        if snt(i):
+            if not snt(int(s[i])):
                 return False
         else:
-            if int(s[i]) % 2 == 0:
+            if snt(int(s[i])):
                 return False
-        A+=int(s[i])
-    return snt(A)
+    return True
 
 t = int(input())
 for _ in range(t):
