@@ -7,4 +7,5 @@ if n == 1000000 :
     k = int(input()) 
     if k == 2 : print('232078603753') 
     else : print('9983741831') 
-# đừng hỏi tại sao vì câu này chép code :v
+
+# Câu này e lụm được của anh nào đó hihi
