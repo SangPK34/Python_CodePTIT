@@ -1,6 +1,9 @@
-Tong = float(input())
-A = float(input())
-R = float(input())
-factor = 2 if A >= 0.1*Tong else 3
-kq = (Tong - A)*R + A*(factor*R)
-print(kq)
+tong = int(input())
+ara = int(input())
+
+if ara * 10 >= tong:
+    print("Arabica duoc mua")
+    print("He so gia ban:2")
+else:
+    print("Arabica mat mua")
+    print("He so gia ban:3")
