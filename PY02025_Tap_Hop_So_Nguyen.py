@@ -1,1 +1,6 @@
-n, m =
+n, m = map(int, input().split())
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+print(*sorted(set(a) & set(b)))
+print(*sorted(set(a) - set(b)))
+print(*sorted(set(b) - set(a)))
