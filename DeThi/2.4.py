@@ -1,5 +1,3 @@
-from builtins import int
-
 t = int(input())
 for _ in range(t):
     s = input()
